@@ -1,6 +1,3 @@
-Got it! Here's the bio that you can add to your GitHub repository's README file:
-
----
 
 # 🇵🇭 Telegram Image Bot 🇵🇭
 **Creator**: Angelo Genon  

@@ -16,15 +16,15 @@
 ```bash
 git clone 
 git@github.com:Angelo-genon/TelegramImageBot.git
-
+```
 
 ```bash
 cd TelegramImageBot
-
+```
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ```bash
 python telegram_image_bot.py

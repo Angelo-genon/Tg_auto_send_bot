@@ -1,5 +1,5 @@
 
-# 🇵🇭 TG AUTO SEND BOT 🇵🇭
+# 🇵🇭 TG AUTO SEND BOT 
 
 **Creator**: Angelo Genon  
 **Email**: [angelogenon3@gmail.com](mailto:angelogenon3@gmail.com)
@@ -31,8 +31,7 @@ This bot automatically scrapes images from a specified website and sends them to
 
 2. Clone the repository:
    ```bash
-   git clone git@github.com:Angelo-genon/Tg_auto_send_bot.git
-   cd Tg_auto_send_bot
+   git clone git@github.com:Angelo-genon/telegram_image_bot.git
    ```
 
 ### Step 2: Install Python Dependencies

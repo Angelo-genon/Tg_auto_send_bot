@@ -1,76 +1,36 @@
+Got it! Here's the bio that you can add to your GitHub repository's README file:
 
-# 🇵🇭 TELEGRAM AUTO BOT 🇵🇭 
+---
 
+# 🇵🇭 Telegram Image Bot 🇵🇭
 **Creator**: Angelo Genon  
 **Email**: [angelogenon3@gmail.com](mailto:angelogenon3@gmail.com)
 
-This bot automatically scrapes images from a specified website and sends them to a Telegram group.
+## About the Bot
+This bot automatically scrapes images from a specified website and sends them to a Telegram group at regular intervals. Users can customize the website URL, bot token, and chat ID before starting the bot.
 
----
+## Features:
+- Scrapes images from a provided URL
+- Sends images directly to a Telegram group
+- Simple configuration through a menu interface
+- Secure access with password protection
 
-## Features
-- Automatically scrapes images from a website.
-- Sends the images to a Telegram group.
-- Customizable settings for easy setup.
-
-## Requirements
-- Python 3.x
-- Telegram Bot Token
-- Python Libraries: `requests`, `beautifulsoup4`, `python-telegram-bot`
-
----
-
-## Installation
-
-### Step 1: Clone the Repository
-
-1. Install Git (if not already installed):
+## How to Use:
+1. **Clone the repository:**
    ```bash
-   sudo apt-get install git
+   git clone git@github.com:Angelo-genon/TelegramImageBot.git
    ```
 
-2. Clone the repository:
+2. **Install dependencies:**
    ```bash
-  
-   ```git clone git@github.com:Angelo-genon/TelegramImageBot.git
-
-### Step 2: Install Python Dependencies
-
-1. Install the required Python libraries:
-   ```bash
-   pip install requests beautifulsoup4 python-telegram-bot
+   pip install -r requirements.txt
    ```
 
-### Step 3: Set Up the Bot
-
-1. Obtain a Telegram Bot Token from the [BotFather](https://core.telegram.org/bots#botfather).
-2. Configure the bot by editing the `config.py` file and adding your Telegram Bot Token and chat ID.
-
-### Step 4: Run the Bot
-
-1. Execute the script to start the bot:
+3. **Run the bot:**
    ```bash
    python telegram_image_bot.py
    ```
 
 ---
 
-## Usage
-
-- The bot will automatically scrape images from the specified website and send them to the configured Telegram group.
-- dont use this for spamming!!!
-
----
-
-## Contributing
-
-Feel free to submit issues or pull requests to improve the bot.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-Make sure to update `config.py` and any other specific details according to your setup and the requirements of your bot. If you need any additional sections or changes, let me know!
+Let me know if you'd like to add or adjust any details!

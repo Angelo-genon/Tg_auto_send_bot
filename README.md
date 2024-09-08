@@ -1,41 +1,28 @@
 # 🇵🇭 TG AUTO SEND BOT 🇵🇭
-## Created by: Angelo Genon
 
-### Description
-This bot automatically scrapes images from a specified URL and sends them to a Telegram group.
+**Creator**: Angelo Genon  
+**Email**: [angelogenon3@gmail.com](mailto:angelogenon3@gmail.com)
 
-### Installation
+This bot automatically scrapes images from a specified website and sends them to a Telegram group.
 
-1. **Install Termux**:
-   - Download Termux from the [Play Store](https://play.google.com/store/apps/details?id=com.termux) or [F-Droid](https://f-droid.org/packages/com.termux/).
+---
 
-2. **Open Termux** and run these commands:
+## Features
+- Automatically scrapes images from a website.
+- Sends the images to a Telegram group.
+- Customizable settings for easy setup.
 
-    ```bash
-    termux-setup-storage
-    apt update && apt upgrade -y
-    pkg install git python3 python-pip php openssh -y
-    pip3 install requests beautifulsoup4 aiogram
-    ```
+## Requirements
+- Python 3.x
+- Telegram Bot Token
+- Python Libraries: `requests`, `beautifulsoup4`, `python-telegram-bot`
 
-3. **Clone this repository**:
+---
 
-    ```bash
-    git clone https://github.com/angelo-genon/tg_auto_send_bot.git
-    cd tg_auto_send_bot
-    ```
+## Installation
 
-4. **Run the setup script**:
+### Step 1: Clone the Repository
 
-    ```bash
-    python3 setup_menu.py
-    ```
-
-5. **Run the bot**:
-
-    ```bash
-    python3 tg_auto_send_bot.py
-    ```
-
-### License
-For educational purposes only. Use responsibly.
+1. Install Git (if not already installed):
+   ```bash
+   sudo apt-get install git
